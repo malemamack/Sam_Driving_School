@@ -17,7 +17,7 @@ img {
 }
 
 /* 📱 Responsive design for smaller screens */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 200px) {
   .question-block {
     font-size: 16px;
     padding: 8px;
@@ -27,7 +27,73 @@ img {
     max-width: 100%;
   }
 
+ 
+
+/* 📱 Responsive design for mobile devices */
+@media screen and (max-width: 600px) {
+ .question-block {
+    font-size: 15px;
+    padding: 6px;
+  }
+
+  .question-block img {
+    max-width: 100%;
+  }
+
   body {
+    padding: 6px;
+    font-size: 15px;
+  }
+}
+/* ...existing code... *//* ...existing code... */
+
+body {
+  /* Add or update the font-size property */
+  font-size: 20px;
+  /* ...existing code... */
+}
+
+/* 📱 Responsive design for mobile devices */
+@media screen and (max-width: 600px) {
+  .question-block {
+    font-size: 15px;
+    padding: 6px;
+  }
+
+  .question-block img {
+    max-width: 100%;
+  }
+
+  body {
+    padding: 6px;
+    font-size: 18px; /* Increase mobile body font size as well */
+  }
+}
+/* ...existing code... *//* ...existing code... */
+
+body {
+  /* Add or update the font-size property */
+  font-size: 20px;
+  /* ...existing code... */
+}
+
+/* 📱 Responsive design for mobile devices */
+@media screen and (max-width: 600px) {
+  .question-block {
+    font-size: 15px;
+    padding: 6px;
+  }
+
+  .question-block img {
+    max-width: 100%;
+  }
+
+  body {
+    padding: 6px;
+    font-size: 18px; /* Increase mobile body font size as well */
+  }
+}
+/* ...existing code... */
     padding: 10px;
     font-size: 16px;
   }
