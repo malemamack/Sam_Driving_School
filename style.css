@@ -1,0 +1,15 @@
+.correct {
+  color: red;
+  font-weight: bold;
+}
+.question-block {
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+img {
+  max-width: 200px;
+  display: block;
+  margin-top: 5px;
+}
